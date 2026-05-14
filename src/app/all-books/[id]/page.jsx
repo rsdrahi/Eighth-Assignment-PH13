@@ -1,6 +1,8 @@
+import BorrowBook from '@/components/BorrowBook';
 import { Button, Chip } from '@heroui/react';
 import Image from 'next/image';
 import React from 'react';
+
 
 const BookDetails = async ({ params }) => {
 
@@ -10,6 +12,7 @@ const BookDetails = async ({ params }) => {
   // console.log(books, "Books");
   const book = books.find(b => b.id == id)
   console.log(book, "Book");
+
 
   return (
     <div className='grid grid-cols-2 my-12 shadow p-8 gap-8 rounded-lg'>
@@ -40,12 +43,12 @@ const BookDetails = async ({ params }) => {
             Category:
           </div>
           <div>
-            <Chip className='px-4'>{book.category}</Chip>
+            <Chip className='px-4 bg-amber-200'>{book.category}</Chip>
           </div>
         </div>
         <div className='border-t-2 mb-6 space-y-3'>
           <div className='mt-8'>
-            <Button className={"w-full"} variant='outline'>Borrow This Book</Button>
+            <BorrowBook title={book.title}></BorrowBook>
           </div>
         </div>
       </div>
