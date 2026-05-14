@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 const SignupToast = ({ signup }) => {
 
   const handleSignUP = () => {
-    toast.success('Sign Up Successful')
+    toast.success(`Sign Up Successful`)
   }
 
   return (

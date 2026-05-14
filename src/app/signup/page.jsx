@@ -5,6 +5,7 @@ import { authClient } from '@/lib/auth-client';
 import { toast } from 'react-toastify';
 import SignupToast from '@/components/SignupToast';
 import { useRouter } from 'next/navigation';
+import { FaGoogle } from 'react-icons/fa';
 
 const SignupPage = () => {
 
@@ -28,6 +29,12 @@ const SignupPage = () => {
     if (!error) {
       router.push('/signin')
     }
+  }
+
+  const handleGoogleSignup = async () => {
+    await authClient.signIn.social({
+      provider: "google"
+    })
   }
 
   return (
@@ -98,6 +105,11 @@ const SignupPage = () => {
           </Button>
         </div>
       </Form>
+      <p className='text-center'>OR</p>
+      <Button onClick={handleGoogleSignup} className={"w-full"} variant='outline'>
+        <FaGoogle></FaGoogle>
+        Sign Up With Google
+      </Button>
     </Card>
   );
 };

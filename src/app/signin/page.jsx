@@ -3,6 +3,7 @@ import SigninToast from '@/components/SigninToast';
 import { authClient } from '@/lib/auth-client';
 import { Button, Card, Description, FieldError, Form, Input, Label, TextField } from '@heroui/react';
 import React from 'react';
+import { FaGoogle } from 'react-icons/fa';
 
 const SigninPage = () => {
   const onSubmit = async (e) => {
@@ -17,6 +18,12 @@ const SigninPage = () => {
       callbackURL: "/",
     })
     console.log({ data, error });
+  }
+
+  const handleGoogleSignin = async () => {
+    await authClient.signIn.social({
+      provider: "google"
+    })
   }
 
   return (
@@ -76,6 +83,11 @@ const SigninPage = () => {
           </Button>
         </div>
       </Form>
+      <p className='text-center'>OR</p>
+      <Button onClick={handleGoogleSignin} className={"w-full"} variant='outline'>
+        <FaGoogle></FaGoogle>
+        Sign In With Google
+      </Button>
     </Card>
   );
 };
