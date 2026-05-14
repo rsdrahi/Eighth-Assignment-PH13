@@ -15,7 +15,7 @@ const BookDetails = async ({ params }) => {
 
 
   return (
-    <div className='grid grid-cols-2 my-12 shadow p-8 gap-8 rounded-lg'>
+    <div className='grid lg:grid-cols-2 grid-cols-1 my-12 shadow p-8 gap-8 rounded-lg'>
 
       {/* Left Side */}
       <div className='w-full flex items-center justify-center container rounded-lg'>
