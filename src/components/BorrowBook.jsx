@@ -1,7 +1,8 @@
 'use client'
+import { Check } from '@gravity-ui/icons';
 import { Button } from '@heroui/react';
 import React from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const BorrowBook = ({ title }) => {
 
@@ -12,7 +13,7 @@ const BorrowBook = ({ title }) => {
   return (
     <div>
       <Button onClick={handleBookBorrow} className={"w-full"} variant='outline'>Borrow This Book</Button>
-      <ToastContainer></ToastContainer>
+
     </div>
   );
 };
