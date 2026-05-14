@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Emma Carter",
+    "description": "A mysterious story about a hidden forest and the secrets buried within it.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://i.ibb.co.com/JW38M40p/The-Silent-forest.webp"
+  },
+  {
+    "id": 2,
+    "title": "Mastering JavaScript",
+    "author": "David Miller",
+    "description": "A complete guide to modern JavaScript for beginners and advanced developers.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://i.ibb.co.com/q3Xxyvvt/Mastering-Java-Script.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Journey to Mars",
+    "author": "Sophia Green",
+    "description": "An exciting scientific exploration of humanity's future mission to Mars.",
+    "category": "Science",
+    "available_quantity": 15,
+    "image_url": "https://i.ibb.co.com/TxSncKPc/Journey-to-Mars.webp"
+  },
+  {
+    "id": 4,
+    "title": "The Last Kingdom",
+    "author": "Michael Stone",
+    "description": "A thrilling adventure of warriors, kings, and ancient battles.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://i.ibb.co.com/pvC1KHLZ/The-Last-Kingdom.jpg"
+  },
+  {
+    "id": 5,
+    "title": "React for Professionals",
+    "author": "Sarah Johnson",
+    "description": "Learn advanced React concepts and build scalable web applications.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://i.ibb.co.com/qYVmT8jc/React-for-Professionals.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Quantum Universe",
+    "author": "Daniel White",
+    "description": "An introduction to quantum physics and the mysteries of the universe.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://i.ibb.co.com/jvphfQ0J/Quantum-Universe.webp"
+  },
+  {
+    "id": 7,
+    "title": "Whispers in the Dark",
+    "author": "Olivia Brown",
+    "description": "A suspenseful mystery story filled with unexpected twists.",
+    "category": "Story",
+    "available_quantity": 11,
+    "image_url": "https://i.ibb.co.com/ZpjDmy4K/Whispers-in-the-Dark.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Node.js Essentials",
+    "author": "James Wilson",
+    "description": "Everything you need to know to build backend applications using Node.js.",
+    "category": "Tech",
+    "available_quantity": 14,
+    "image_url": "https://i.ibb.co.com/Wv1ZNn74/Nodejs-Essentials.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Human Brain",
+    "author": "Laura Evans",
+    "description": "Discover how the brain works and the science behind human intelligence.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://i.ibb.co.com/ycPLND5R/The-Human-Brain.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Beyond the River",
+    "author": "Henry Walker",
+    "description": "A touching story of friendship, courage, and survival.",
+    "category": "Story",
+    "available_quantity": 13,
+    "image_url": "https://i.ibb.co.com/LXVHTrnq/Beyond-the-River.jpg"
+  },
+  {
+    "id": 11,
+    "title": "AI and the Future",
+    "author": "Natalie Scott",
+    "description": "Explore artificial intelligence and its impact on the future world.",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://i.ibb.co.com/KpXJN3Q4/AI-and-the-Future.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Secrets of Space",
+    "author": "Robert King",
+    "description": "A fascinating journey through galaxies, stars, and black holes.",
+    "category": "Science",
+    "available_quantity": 16,
+    "image_url": "https://i.ibb.co.com/9mGbVgPH/Secrets-of-Space.webp"
+  }
+]
