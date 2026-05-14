@@ -46,13 +46,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className='mt-6 opacity-30  container mx-auto' />
+      <hr className='mt-6 opacity-10  container mx-auto' />
       <div className='flex justify-between mt-6  container mx-auto'>
         <p className='opacity-60'>© 2026 Book Borrow. All rights reserved.</p>
         <div className='flex gap-8'>
-          <p><a href="" className='hover:underline opacity-60'>Privacy Policy</a></p>
-          <p><a href="" className='hover:underline opacity-60'>Terms of Service</a></p>
-          <p><a href="" className='hover:underline opacity-60'>Cookies</a></p>
+          <p><Link href="" className='hover:underline opacity-60 text-sm'>Privacy Policy</Link></p>
+          <p><Link href="" className='hover:underline opacity-60 text-sm'>Terms of Service</Link></p>
+          <p><Link href="" className='hover:underline opacity-60 text-sm'>Cookies</Link></p>
         </div>
       </div>
     </div>

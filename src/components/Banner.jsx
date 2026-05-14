@@ -15,13 +15,13 @@ const Banner = () => {
 
         <div className='flex gap-5 mt-6 font-medium'>
           <Link href="#">
-            <Button className="border p-3 border-green-500 text-green-500 rounded-md cursor-pointer">
+            <Button className=" p-3 rounded-md">
               Browse Now
             </Button>
           </Link>
 
           <Link href="#">
-            <Button className="border p-3 rounded-md cursor-pointer" variant='ghost'>
+            <Button className="p-3 rounded-md " variant='outline'>
               Contact Us
             </Button>
           </Link>
