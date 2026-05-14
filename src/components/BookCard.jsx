@@ -1,5 +1,6 @@
 import { Button, Card, Chip, Separator } from '@heroui/react';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const BookCard = ({ book }) => {
@@ -27,7 +28,13 @@ const BookCard = ({ book }) => {
         <p>Tag: {book.category}</p>
       </div>
 
-      <Button className={'w-full'} variant='outline'>View Details</Button>
+      <Link href={`/all-books/${book.id}`}>
+        <Button
+          className={'w-full'}
+          variant='outline'
+        >View Details
+        </Button>
+      </Link>
 
     </Card>
   );

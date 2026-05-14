@@ -5,7 +5,7 @@ const AllBooksPage = async () => {
 
   const res = await fetch("https://eighth-assignment-ph-13.vercel.app/data.json")
   const books = await res.json();
-  console.log(books, "books");
+  // console.log(books, "books");
 
 
   return (
