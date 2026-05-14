@@ -4,9 +4,9 @@ import React from 'react';
 
 const BookCard = ({ book }) => {
 
-  console.log(book, "Book");
+  // console.log(book, "Book");
   return (
-    <Card className='border my-8 rounded-xl'>
+    <Card className='border my-8 rounded-xl container mx-auto'>
 
       <div className='relative w-full aspect-square'>
         <Image src={book.image_url}

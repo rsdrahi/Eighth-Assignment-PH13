@@ -5,9 +5,9 @@ const FeaturedBooks = async () => {
 
   const res = await fetch("https://eighth-assignment-ph-13.vercel.app/data.json")
   const books = await res.json();
-  console.log(books, "books");
+  // console.log(books, "books");
   const featureBooks = books.slice(0, 8)
-  console.log(featureBooks, "featureBooks");
+  // console.log(featureBooks, "featureBooks");
 
   return (
     <div>
