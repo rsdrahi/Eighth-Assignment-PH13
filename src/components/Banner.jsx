@@ -14,13 +14,13 @@ const Banner = () => {
         <h1 className='font-bold text-5xl'>Find Your Next Read</h1>
 
         <div className='flex gap-5 mt-6 font-medium'>
-          <Link href="#">
+          <Link href="/all-books">
             <Button className=" p-3 rounded-md">
               Browse Now
             </Button>
           </Link>
 
-          <Link href="#">
+          <Link href="#footer">
             <Button className="p-3 rounded-md " variant='outline'>
               Contact Us
             </Button>

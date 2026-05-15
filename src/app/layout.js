@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ToastContainer } from "react-toastify";
+import LatestUpdate from "@/components/LatestUpdate";
 
 const outfitFont = Outfit({
   subsets: ["latin"],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar></Navbar>
+        <LatestUpdate></LatestUpdate>
         <main className="max-w-7xl m-auto">
           {children}
            <ToastContainer></ToastContainer>
