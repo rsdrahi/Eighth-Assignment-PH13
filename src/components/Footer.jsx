@@ -7,7 +7,7 @@ import { FaGoogle } from 'react-icons/fa6';
 const Footer = () => {
   return (
 
-    <div className='bg-[#101727] text-white px-22 py-8' id='footer'>
+    <div className='bg-[#101727] text-white px-22 py-8' id='footer mt-6'>
       <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-24 p-4 container mx-auto'>
         <div className='space-y-4'>
           <Image
