@@ -24,7 +24,6 @@ const BookDetails = async ({ params }) => {
           alt={book.title}
           height={400}
           width={400}
-          className='h-[600px]'
         />
       </div>
 
