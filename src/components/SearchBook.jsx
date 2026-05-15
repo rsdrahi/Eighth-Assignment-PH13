@@ -16,7 +16,7 @@ const SearchBook = ({ books }) => {
 
   return (
     <div>
-      <div className='flex items-center gap-5'>
+      <div className='flex items-center justify-end gap-5'>
         <Input
           type='text'
           value={inputValue}
