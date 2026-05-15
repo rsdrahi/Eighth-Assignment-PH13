@@ -1,4 +1,5 @@
 import BookCard from '@/components/BookCard';
+import SearchBook from '@/components/SearchBook';
 import React from 'react';
 
 const AllBooksPage = async () => {
@@ -12,6 +13,8 @@ const AllBooksPage = async () => {
     <div>
 
       <h2 className='text-3xl font-bold text-center my-6'>All Books</h2>
+
+      <SearchBook books={books}></SearchBook>
 
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5'>
         {

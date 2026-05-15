@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar></Navbar>
-        <LatestUpdate></LatestUpdate>
         <main className="max-w-7xl m-auto">
           {children}
            <ToastContainer></ToastContainer>
