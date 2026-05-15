@@ -3,7 +3,7 @@ import React from 'react';
 
 const CategoryBar = async () => {
 
-  const res = await fetch("http://localhost:3000/category.json");
+  const res = await fetch("https://eighth-assignment-ph-13.vercel.app/category.json");
   const categories = await res.json();
   console.log(categories, "categories");
 
