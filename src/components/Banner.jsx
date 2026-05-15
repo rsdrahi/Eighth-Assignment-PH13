@@ -11,7 +11,7 @@ const Banner = () => {
 
       {/* left side */}
       <div className='p-12'>
-        <h1 className='font-bold text-5xl'>Find Your Next Read</h1>
+        <h1 className='font-bold text-5xl animate__animated animate__fadeInTopLeft'>Find Your Next Read</h1>
 
         <div className='flex gap-5 mt-6 font-medium'>
           <Link href="/all-books">

@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link href={"/all-books"}>
-              <Button>Home</Button>
+              <Button>All Books</Button>
             </Link>
           </li>
           <li>
