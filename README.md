@@ -16,7 +16,7 @@ This is the Online Book Borrow Platform. This Project helps the user to explore 
 - User Friendly Interface
 - Responsive for All Device
 
-## nmp package
+## npm package
 - Animate.css
 - React Toast 
 - gravity Ui
