@@ -6,6 +6,9 @@ const nextConfig = {
       {
         hostname: 'i.ibb.co.com',
       },
+      {
+        hostname: 'i.ibb.co',
+      },
     ],
   },
 };
