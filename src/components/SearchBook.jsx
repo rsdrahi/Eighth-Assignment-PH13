@@ -8,7 +8,7 @@ const SearchBook = ({ books }) => {
   const [inputValue, setInputValue] = useState("")
   const [search, setSearch] = useState("")
   const filteredBooks = books.filter((book) => book.title.toLowerCase().includes(search.toLowerCase()));
-  console.log(filteredBooks, "filteredBooks");
+  // console.log(filteredBooks, "filteredBooks");
 
   const handleSearchBook = () => {
     setSearch(inputValue)
