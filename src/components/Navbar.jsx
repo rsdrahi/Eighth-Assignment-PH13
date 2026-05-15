@@ -32,23 +32,33 @@ const Navbar = () => {
 
         <ul className="flex items-center gap-5 text-sm font-medium">
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"}>
+              <Button>Home</Button>
+            </Link>
           </li>
           <li>
-            <Link href={"/all-books"}>All Books</Link>
+            <Link href={"/all-books"}>
+              <Button>Home</Button>
+            </Link>
           </li>
           <li>
-            <Link href={"/profile"}>Profile</Link>
+            <Link href={"/profile"}>
+              <Button>Profile</Button>
+            </Link>
           </li>
         </ul>
 
         <div className="flex gap-4 font-medium">
           {!user && <ul className="flex items-center gap-5 text-sm">
             <li>
-              <Link href={"/signup"}>SignUp</Link>
+              <Link href={"/signup"}>
+                <Button variant="outline">SignUp</Button>
+              </Link>
             </li>
             <li>
-              <Link href={"/signin"}>SignIn</Link>
+              <Link href={"/signin"}>
+                <Button variant="outline">SignIn</Button>
+              </Link>
             </li>
           </ul>}
           {

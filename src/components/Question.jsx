@@ -26,6 +26,7 @@ const Question = () => {
 
   return (
     <Card className='border my-8 p-6'>
+      <h2 className='font-bold text-2xl my-2 text-center'>Frequently Ask Question</h2>
       <Accordion hideSeparator className="w-full max-w-md text-center">
         {items.map((item, index) => (
           <Accordion.Item key={index}>
