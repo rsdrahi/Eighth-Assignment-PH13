@@ -22,6 +22,7 @@ const SearchBook = ({ books }) => {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder='Search Book'
+          className={"shadow bg-amber-50"}
         />
         <Button onClick={handleSearchBook} className={"rounded-lg"}>Search</Button>
       </div>

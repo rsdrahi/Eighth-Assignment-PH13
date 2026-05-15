@@ -8,13 +8,10 @@ const CategoryBar = async () => {
   console.log(categories, "categories");
 
   return (
-    <div>
-      <h3>Categories</h3>
-      <div>
-        {
-          categories.map(category => <Button key={category.id}>{category.category}</Button>)
-        }
-      </div>
+    <div className='space-x-3 flex justify-start items-center'>
+      {
+        categories.map(category => <Button size='sm' key={category.id}>{category.category}</Button>)
+      }
     </div>
   );
 };

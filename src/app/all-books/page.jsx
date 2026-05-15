@@ -10,20 +10,20 @@ const AllBooksPage = async () => {
   // console.log(books, "books");
 
 
+
   return (
     <div>
 
       <h2 className='text-3xl font-bold text-center my-6'>All Books</h2>
 
+      <CategoryBar></CategoryBar>
       <SearchBook books={books}></SearchBook>
 
-      <CategoryBar></CategoryBar>
-
-      <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5'>
+      {/* <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5'>
         {
           books.map(book => <BookCard key={book.id} book={book}></BookCard>)
         }
-      </div>
+      </div> */}
 
     </div>
   );
