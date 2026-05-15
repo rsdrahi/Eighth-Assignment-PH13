@@ -11,7 +11,7 @@ const OurBranches = async () => {
   return (
     <Card className='border'>
       <h2 className='font-bold text-2xl text-center my-2'>Our Branches</h2>
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='grid lg:grid-cols-4 sm:grid-cols-2 gap-5'>
         {
           branches.map(branch => <div key={branch.id}>
             <Image
@@ -19,7 +19,7 @@ const OurBranches = async () => {
               alt='Branch Name'
               height={400}
               width={300}
-              className='object-cover w-full h-[200px] rounded-md' 
+              className='object-cover w-full h-[200px] rounded-md'
             />
             <p className='font-bold text-center my-3'>{branch.city}</p>
           </div>)

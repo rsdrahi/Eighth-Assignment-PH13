@@ -6,7 +6,7 @@ import BannerImage from '../../public/Banner.jpg'
 
 const Banner = () => {
   return (
-    <div className='flex justify-between 
+    <div className='flex justify-between flex-col-reverse lg:flex-row
     items-center container mx-auto p-8 bg-gray-50 my-8 rounded-md'>
 
       {/* left side */}
